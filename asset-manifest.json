@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/orchard-fed-test/static/css/main.ba3ed01f.css",
+    "main.js": "/orchard-fed-test/static/js/main.f3f6c263.js",
+    "static/media/Image-01@2x.jpg": "/orchard-fed-test/static/media/Image-01@2x.8eb14ae4518dc7d74fb0.jpg",
+    "static/media/Image-03@2x.jpg": "/orchard-fed-test/static/media/Image-03@2x.4266ee7ddab187f48fb3.jpg",
+    "static/media/Image-02@2x.jpg": "/orchard-fed-test/static/media/Image-02@2x.717fd06efa930c0206d5.jpg",
+    "static/media/OpenSans-Regular.ttf": "/orchard-fed-test/static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
+    "static/media/OpenSans-Bold.ttf": "/orchard-fed-test/static/media/OpenSans-Bold.a0fe34bea92d4e1a84d6.ttf",
+    "static/media/OpenSans-Light.ttf": "/orchard-fed-test/static/media/OpenSans-Light.8ed223d62df9e1a6a838.ttf",
+    "index.html": "/orchard-fed-test/index.html",
+    "main.ba3ed01f.css.map": "/orchard-fed-test/static/css/main.ba3ed01f.css.map",
+    "main.f3f6c263.js.map": "/orchard-fed-test/static/js/main.f3f6c263.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba3ed01f.css",
+    "static/js/main.f3f6c263.js"
+  ]
+}
