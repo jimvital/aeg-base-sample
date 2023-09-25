@@ -3,4 +3,12 @@
   flex-direction: column;
   align-items: center;
   gap: 174px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 186px 72px;
+  overflow: overlay;
+
+  @media screen and (max-width: 320px) {
+    padding: 48px;
+  }
 }
