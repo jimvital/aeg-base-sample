@@ -37,14 +37,14 @@ const CARDS = [
 
 const AllLatest: React.FC = () => {
   return (
-    <div className="all-latest">
+    <section className="all-latest">
       <h1 className="header">all the latest from aeg</h1>
       <div className="cards-container">
         {CARDS.map((props) => (
           <Card key={props.id} {...props} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

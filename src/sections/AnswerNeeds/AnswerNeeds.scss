@@ -15,7 +15,7 @@
   .field,
   .veggies,
   .description {
-    flex: 1; // allow 100% width on flex wrap
+    flex: 1;
   }
 
   .veggies {
@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Open Sans Light";
+    min-width: 240px;
 
     .header {
       font-size: 1.7em;

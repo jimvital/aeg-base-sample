@@ -26,5 +26,11 @@
     text-decoration: none;
     padding-bottom: 8px;
     border-bottom: 1px solid $magenta;
+    transition: 0.3s;
+
+    &:hover {
+      color: $magenta;
+      border-bottom: 1px solid $white;
+    }
   }
 }

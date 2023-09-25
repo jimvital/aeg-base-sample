@@ -27,6 +27,7 @@
   width: 100vw;
   box-sizing: border-box;
   padding: 24px;
+  z-index: 100;
 
   &.hidden {
     display: none;
@@ -46,6 +47,11 @@
 
 .source {
   height: 100%;
+  transition: 0.3s;
+
+  &:hover {
+    filter: grayscale(100%) drop-shadow(3px 3px $magenta);
+  }
 }
 
 .close {

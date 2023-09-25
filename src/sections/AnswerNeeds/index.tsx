@@ -9,7 +9,7 @@ import asparagus from "../../assets/images/answer-needs/Image-03@2x.jpg";
 
 const AnswerNeeds: React.FC = () => {
   return (
-    <div className="answer-needs">
+    <section className="answer-needs">
       <div className="field">
         <ImageModal modalContent={<img src={fieldWalk} alt="field-large" />}>
           <img src={fieldWalk} alt="field" />
@@ -42,7 +42,7 @@ const AnswerNeeds: React.FC = () => {
           mindful about what you're cooking and eating.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
