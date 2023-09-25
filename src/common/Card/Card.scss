@@ -1,0 +1,30 @@
+@import "src/variables";
+
+.card {
+  flex: 1;
+
+  img {
+    @include responsive-image;
+
+    border-bottom: 4px solid $magenta;
+  }
+
+  .title {
+    text-transform: capitalize;
+    font-weight: normal;
+  }
+
+  .description {
+    font-family: "Open Sans Light";
+    font-weight: normal;
+    color: $gray;
+  }
+
+  .read-more {
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $magenta;
+  }
+}

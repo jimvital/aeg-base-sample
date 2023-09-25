@@ -10,8 +10,10 @@ body {
   background-color: $dark;
   color: $white;
   font-family: "Open Sans Regular";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  line-height: 2em;
 }
 
 ::-webkit-scrollbar {

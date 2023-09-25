@@ -8,11 +8,14 @@
   gap: 24px;
 
   img {
-    // maintain aspect ratio while ensuring content is filled
-    min-width: 240px;
-    max-width: 100%;
+    @include responsive-image;
     height: 100%;
-    object-fit: cover;
+  }
+
+  .field,
+  .veggies,
+  .description {
+    flex: 1; // allow 100% width on flex wrap
   }
 
   .veggies {
@@ -25,16 +28,15 @@
     display: flex;
     flex-direction: column;
     font-family: "Open Sans Light";
-    flex: 1; // allow 100% width on flex wrap
 
-    h2 {
+    .header {
       font-size: 1.7em;
       text-transform: uppercase;
       font-weight: normal;
       margin: 0;
     }
 
-    h4 {
+    .sub-header {
       text-transform: uppercase;
       margin-bottom: 0;
       color: $magenta;
@@ -44,12 +46,8 @@
       width: 100%;
     }
 
-    p {
-      line-height: 2em;
-
-      &.bold {
-        font-weight: bold;
-      }
+    p.bold {
+      font-weight: bold;
     }
   }
 }

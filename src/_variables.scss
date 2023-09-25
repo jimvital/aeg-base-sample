@@ -1,4 +1,12 @@
 $dark: #0e1414;
 $white: #ffffff;
+$gray: #999a9a;
 $magenta: #e71535;
 $overlay: rgba(14, 20, 20, 0.75);
+
+@mixin responsive-image {
+  // maintain aspect ratio while ensuring content is filled
+  min-width: 240px;
+  max-width: 100%;
+  object-fit: cover;
+}
